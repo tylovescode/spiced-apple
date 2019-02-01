@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126668011-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-126668011-1');
+  </script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>The Spiced Apple</title>
+
+</head>
+
+<body data-spy="scroll" data-target="#main-nav" id="home">
+
+  <!-- NAVBAR -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary border-bottom border-white" id="main-nav">
+    <a class="navbar-brand" href="index.html">
+      <img src="img/spicedAppleLogoWhite-100px.png" class="ml-2" height='75px'>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Menu
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="menu.html">Soups</a>
+            <a class="dropdown-item" href="menu.html#salads-header">Salads</a>
+            <a class="dropdown-item" href="menu.html#salad-plates-header">Salad Plates</a>
+            <a class="dropdown-item" href="menu.html#sandwiches-header">Specialty Sandwiches</a>
+            <a class="dropdown-item" href="menu.html#byo-sandwiches-header">Build Your Own</a>
+            <a class="dropdown-item" href="menu.html#vegetarian-header">Vegetarian</a>
+            <a class="dropdown-item" href="menu.html#combos-header">Combinations</a>
+            <a class="dropdown-item" href="/img/spiced-apple-menu.pdf" target="_blank">Download Menu</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#location-header">Location & Hours</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#catering-header">Catering</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- CAROUSEL -->
+  <section id="showcase">
+    <div class="container">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol>
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item carousel-image-1 active">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block text-dark text-left mb-5">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel-image-2">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block mb-5">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel-image-3">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block text-dark text-left mb-5">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CARD DECK -->
+  <section id="features">
+    <div class="container">
+      <div class="card-deck mb-5">
+        <div class="card border-dark shadow">
+          <img class="card-img-top" src="img/freshBreads-200x400.jpg" alt="Card image cap">
+          <div class="card-body text-dark text-center">
+            <h5 class="card-title">Fresh Breads</h5>
+            <p class="card-text">Our white, cracked wheat, and onion breads, as well as our deli rolls, are fresh baked
+              in-house each and every
+              morning.
+            </p>
+
+          </div>
+        </div>
+        <div class="card border-dark shadow">
+          <img class="card-img-top" src="img/handcraftedSandwiches-200x400.jpg" alt="Card image cap">
+          <div class="card-body text-dark text-center">
+            <h5 class="card-title">Hand Crafted Sandwiches</h5>
+            <p class="card-text">Each of our sandwiches are hand crafted and made-to-order. The hardest part is
+              deciding which sandwich to order!</p>
+
+          </div>
+        </div>
+        <div class="card border-dark shadow">
+          <img class="card-img-top" src="img/reesesCheesecake-200x400.jpg" alt="Card image cap">
+          <div class="card-body text-dark text-center">
+            <h5 class="card-title">Homemade Desserts</h5>
+            <p class="card-text">Finish your meal with one of our decadent desserts. We've been making our famous cream
+              pies for over 25 years!</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION
+  <section id="about">
+    <div class="container my-5">
+      <div class="card border-dark shadow text-center w-75 m-auto">
+        <h5 class="card-header">Featured</h5>
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-danger">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+
+  <!-- LOCATION HEADER -->
+  <section id="location-header" class="py-2 bg-dark text-center text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Location & Hours</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOCATION -->
+  <section id="location">
+    <div class="container my-5 bg-light p-5">
+      <div class="row">
+        <div class="col-md-6 p-3">
+          <div class="card bg-light m-auto h-100 text-center shadow">
+            <div class="card-header">LOCATION & HOURS</div>
+            <div class="card-body">
+              <p class="card-text">We are located at 443 Gillum Drive, just off the North Bypass in Dalton.</p>
+              <p>We are open for lunch Monday through Friday from 11:00am until 2:30pm and Friday evenings from 5:00pm
+                until
+                8:30pm.
+              </p>
+              <p>Looking for a printable menu? <a href="/img/spiced-apple-menu.pdf" target="_blank">Click here to
+                  download
+                  the menu.</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-3">
+          <iframe width="100%" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAi9ipPGCiRHZ8FV352sdfUkhT2EoF4UUk
+            &q=Spiced+Apple"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATERING HEADER -->
+  <section id="catering-header" class="py-2 bg-dark text-center text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Catering</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- CATERING -->
+  <section id="catering">
+    <div class="container mt-5 bg-light p-5">
+      <div class="row">
+        <div class="col-md-6 p-3 text-center m-auto ">
+          <img src="img/catering-200x400.jpg" alt="Catering" class="img-fluid shadow">
+        </div>
+        <div class="col-md-6 p-3">
+          <div class="card bg-light m-auto h-100 text-center shadow">
+            <div class="card-header">The Spiced Apple caters!</div>
+            <div class="card-body">
+              <p class="card-text">We can easily cater your business lunch or other social events. We offer a variety
+                of boxed lunches and sandwich
+                trays but can create a custom package to fit your needs. Please call us at 706.278.6009 to inquire
+                about
+                catering.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer id="main-footer" class="bg-dark text-white my-5 py-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 m-auto">
+          <p class="text-center">
+            Copyright &copy;
+            <span id="year"></span> The Spiced Apple
+          </p>
+          <p class="text-center">443 Gillum Drive
+            <br> Dalton, GA 30721
+            <br> 706.278.6009
+          </p>
+
+        </div>
+        <div class="col-md-6 m-auto text-center">
+          <i class="fab fa-cc-visa fa-2x"></i>
+          <i class="fab fa-cc-mastercard fa-2x"></i>
+          <i class="fab fa-cc-amex fa-2x"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.ckeditor.com/4.9.2/standard/ckeditor.js"></script>
+
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+
+    CKEDITOR.replace('editor1');
+    //Init Scrollspy
+    $('body').scrollspy({ target: '#main-nav' });
+
+    //Smooth Scroll
+    $('#main-nav a').on('click', function (e) {
+      // Check for a hash value
+      if (this.hash !== '') {
+        // Prevent default behavior
+        e.preventDefault();
+
+        // Store hash
+        const hash = this.hash;
+
+        // Animate smooth scroll
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 900, function () {
+          // Add hash to URL after scroll
+          window.location.hash = hash;
+        });
+      }
+    });
+  </script>
+</body>
+
+</html>
